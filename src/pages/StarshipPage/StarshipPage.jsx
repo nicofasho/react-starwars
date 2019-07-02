@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class StarshipPage extends Component {
-  render(props) {
+  render() {
     const { name, model } = this.props.ship;
     return (
       <div>
